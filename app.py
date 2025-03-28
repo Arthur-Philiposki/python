@@ -2,7 +2,7 @@ import streamlit as st
 
 st.header ("Atividade Python")
 
-st.toggle ("Toggle")
+nome = int(input("Adicione o Nome: "))
 
 st.text_input ("Adicione o Nome: ")
 st.text_input ("Adicione o Sobrenome: ")
