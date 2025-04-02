@@ -10,13 +10,13 @@ st.write("O sobrenome digitado é: ", sobrenome)
 data = st.date_input("Quando é o Aniversario", value=None)
 st.write("Aniversario é na data:", data)
 
-option = st.selectbox(
+Estado = st.selectbox(
     "Qual é o Estado civil? ",
     ("Solteiro", "Casado", "Divorciado", "Viúvo"),
     index=None,
     placeholder="Seleção.",
 )
-st.write("O estado civil selecionado é:", option)
+st.write("O estado civil selecionado é:", Estado)
 
 
 option = st.selectbox(
@@ -43,5 +43,5 @@ else:
 aumento = 0
 while aumento < 500:
     aumento += 100
-     st.write(aumento)
+     st.write (aumento)
 salario += aumento
