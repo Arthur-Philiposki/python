@@ -47,3 +47,5 @@ while aumento < 500:
     st.write (aumento)
     
 salario += aumento
+
+st.write (salario)
