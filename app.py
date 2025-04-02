@@ -33,5 +33,5 @@ st.write("O salario digitado é: ", salario)
 if (salario < 2500):
     print("Funcionario precisa receber aumento")
 
-else
+else:
     print("Funcionario NÃO precisa de aumento")
