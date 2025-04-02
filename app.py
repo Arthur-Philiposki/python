@@ -43,5 +43,7 @@ else:
 aumento = 0
 while aumento < 500:
     aumento += 100
-     st.write (aumento)
+    
+    st.write (aumento)
+    
 salario += aumento
