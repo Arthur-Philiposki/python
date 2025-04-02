@@ -30,7 +30,7 @@ st.write("O sexo selecionado é:", option)
 salario = st.text_input("Qual o Salario: ")
 st.write("O salario digitado é: ", salario)
 
-if (salario < 2500)
+if (salario < 2500):
     print("Funcionario precisa receber aumento")
 
 else
