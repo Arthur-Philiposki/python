@@ -35,3 +35,13 @@ if (salario < 2500):
 
 else:
     st.write("Funcionario NÃO precisa de aumento")
+
+# aumento = 0
+# for i in range(5):
+#     aumento += 100
+
+aumento = 0
+while aumento < 500:
+    aumento += 100
+
+salario += aumento
