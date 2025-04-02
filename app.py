@@ -31,7 +31,7 @@ salario = st.number_input("Qual o Salario: ")
 st.write("O salario digitado é: ", salario)
 
 if (salario < 2500):
-    print("Funcionario precisa receber aumento")
+    st.write("Funcionario precisa receber aumento")
 
 else:
-    print("Funcionario NÃO precisa de aumento")
+    st.write("Funcionario NÃO precisa de aumento")
